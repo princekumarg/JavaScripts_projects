@@ -99,10 +99,33 @@ a h5:hover {
     transform: translate(0%, -50%);
 }
 
+@media (max-width: 500px) {
+    .small-img {
+        display: none;
+    }
+
+    .text {
+        position: absolute;
+        width: 100px;
+        left: 10%;
+        top: 55%;
+        transform: translate(0, -50%);
+    }
+
+    .text h1 {
+        font-size: 60px;
+        font-family: monument-extended, sans-serif;
+        font-weight: 250;
+        letter-spacing: 2px;
+        line-height: 45px;
+        color: white;
+        text-transform: uppercase;
+
+    }
+}
+
 .vertical-text {
     position: absolute;
-    /* width: 100%; */
-    /* background-color: red; */
     right: -65%;
     top: -10%;
     transform: rotate(90deg);
@@ -121,9 +144,10 @@ a h5:hover {
     -webkit-text-stroke-width: 2px;
     -webkit-text-stroke-color: #fff;
     animation-name: scroll;
-    animation-duration: 5s;
+    animation-duration: 6s;
     animation-iteration-count: infinite;
     animation-timing-function: linear;
+
 }
 
 .nav {
@@ -148,10 +172,10 @@ a h5:hover {
 
 @keyframes scroll {
     0% {
-        transform: translateX(0);
+        transform: translateX(15%);
     }
 
     100% {
-        transform: translateX(100%);
+        transform: translateX(-100%);
     }
 }
