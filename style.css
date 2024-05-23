@@ -99,6 +99,7 @@ a h5:hover {
     transform: translate(0%, -50%);
 }
 
+/* mobile screen */
 @media (max-width: 500px) {
     .small-img {
         display: none;
@@ -123,6 +124,8 @@ a h5:hover {
 
     }
 }
+
+/* mobile screen */
 
 .vertical-text {
     position: absolute;
