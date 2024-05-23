@@ -1,3 +1,3 @@
 # JavaScripts
 
-## All Projects inside this
+## All Projects inside
