@@ -52,12 +52,25 @@ a {
     text-decoration: none;
 }
 
-a h5:hover {
+a h2 {
     color: #111111;
-    border-bottom: 3px solid #fcef40;
     width: 70px;
-    font-size: 25px;
+    font-size: 40px;
     font-weight: 700;
+}
+
+a h2:hover {
+    border-bottom: 3px solid #fcef40;
+    color: #fcef40;
+}
+
+.hide {
+    display: none;
+}
+
+a h2:hover+.hide {
+    display: block;
+    color: rgb(248, 249, 248);
 }
 
 .part3 {
