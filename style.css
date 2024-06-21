@@ -53,10 +53,11 @@ a {
 }
 
 a h5:hover {
-    color: #f8f8f6;
+    color: #111111;
     border-bottom: 3px solid #fcef40;
     width: 70px;
     font-size: 25px;
+    font-weight: 700;
 }
 
 .part3 {
